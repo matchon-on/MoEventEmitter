@@ -1,0 +1,26 @@
+{
+  "name": "MoEventEmitter",
+  "version": "1.1.3",
+  "description": "Event based JavaScript for the MatchOn.cn, cloud gaming platform",
+  "main": "MoEventEmitter.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fangqiao/MoEventEmitter.git"
+  },
+  "keywords": [
+    "eventemitter",
+    "events",
+    "browser",
+    "amd",
+    "MatchOn"
+  ],
+  "author": {
+    "name": "fqye",
+    "email": "fqye@matchon.cn"
+  },
+  "license": "Unlicense",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "uglify-js": "^2.7.4"
+  }
+}

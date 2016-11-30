@@ -2,7 +2,7 @@
 
 ## 麦琪 云对战平台的JavaScript消息引擎.
 
-本消息引擎基于Olical的EventEmitter, 与Nodejs的消息引擎完全兼容. 可以为在浏览器运行的JavaScript增加消息订阅和触发功能. 麦琪对战云平台的JavaScript API使用此消息引擎,实现MatchOn对象上的消息订阅和触发服务, 以异步的方式获得MatchOn云对战平台的服务.
+本消息引擎基于Olical的[EventEmitter](https://github.com/Olical/EventEmitter), 与Nodejs的消息引擎完全兼容. 可以为在浏览器运行的JavaScript增加消息订阅和触发功能. 麦琪对战云平台的JavaScript API使用此消息引擎,实现MatchOn对象上的消息订阅和触发服务, 以异步的方式获得MatchOn云对战平台的服务.
 
 
 ## 麦琪(MatchOn)云对战平台
@@ -41,7 +41,7 @@
 
 您可以直接使用git clone命令复制这个仓库.
 ```
-git clone git://github.com/Olical/EventEmitter.git
+git clone git://github.com/matchon-on/MoEventEmitter.git
 ```
 
 ### NPM安装包

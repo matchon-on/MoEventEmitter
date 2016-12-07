@@ -453,7 +453,7 @@
      */
     MoEventEmitter.prototype.emit = function emit(evt) {
         var args = Array.prototype.slice.call(arguments, 1);
-        return this.emit(evt, args);
+        return this.emitEvent(evt, args);
     };
 
     /**

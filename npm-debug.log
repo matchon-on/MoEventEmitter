@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'publish' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/fqye/projects/MoEventEmitter',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/fqye/.npm/MoEventEmitter/1.1.3/package.tgz not in flight; packing
+9 verbose correctMkdir /home/fqye/.npm correctMkdir not in flight; initializing
+10 info lifecycle MoEventEmitter@1.1.3~prepublish: MoEventEmitter@1.1.3
+11 silly lifecycle MoEventEmitter@1.1.3~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/home/fqye/.npm/MoEventEmitter/1.1.3/package.tgz',
+12 verbose tar pack   '/home/fqye/projects/MoEventEmitter' ]
+13 verbose tarball /home/fqye/.npm/MoEventEmitter/1.1.3/package.tgz
+14 verbose folder /home/fqye/projects/MoEventEmitter
+15 verbose addLocalTarball adding from inside cache /home/fqye/.npm/MoEventEmitter/1.1.3/package.tgz
+16 verbose correctMkdir /home/fqye/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd MoEventEmitter@1.1.3
+18 verbose afterAdd /home/fqye/.npm/MoEventEmitter/1.1.3/package/package.json not in flight; writing
+19 verbose correctMkdir /home/fqye/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /home/fqye/.npm/MoEventEmitter/1.1.3/package/package.json written
+21 silly publish { name: 'MoEventEmitter',
+21 silly publish   version: '1.1.3',
+21 silly publish   description: 'Event based JavaScript for the MatchOn.cn, cloud gaming platform',
+21 silly publish   main: 'MoEventEmitter.js',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/fangqiao/MoEventEmitter.git' },
+21 silly publish   keywords: [ 'eventemitter', 'events', 'browser', 'amd', 'MatchOn' ],
+21 silly publish   author: { name: 'fqye', email: 'fqye@matchon.cn' },
+21 silly publish   license: 'Unlicense',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   devDependencies: { 'uglify-js': '^2.7.4' },
+21 silly publish   readme: '# MoEventEmitter\n\n## 麦琪 云对战平台的JavaScript消息引擎.\n\n本消息引擎基于Olical的[EventEmitter](https://github.com/Olical/EventEmitter), 与Nodejs的消息引擎完全兼容. 可以为在浏览器运行的JavaScript增加消息订阅和触发功能. 麦琪对战云平台的JavaScript API使用此消息引擎,实现MatchOn对象上的消息订阅和触发服务, 以异步的方式获得MatchOn云对战平台的服务.\n\n\n## 麦琪(MatchOn)云对战平台\n\n麦琪云对战平台由画笔(上海)网络科技有限公司开发和运营, 为网络游戏开发者提供三大服务:\n\n- 对战对手匹配\n- 游戏消息通讯\n- 键值对管理\n\n游戏开发者不再需要自行开发对手匹配引擎, 消息通讯引擎和键值对管理后台,直接通过麦琪的API,就能立刻获得这些服务.\n\n使用麦琪云对战平台,游戏开发者可以专注于游戏可玩性, 节省开发运营成本,加快开发速度.\n\n进入[麦琪(MatchOn)](http://matchon.cn)官网了解详细信息.\n\n## 使用\n\n如果您是MatchOn API的用户, 您构造的MatchOn对象,已经继承了MoEventEmitter的所有函数,您可以直接在MatchOn对象上使用所有的消息功能.\n\n如果您希望在其他地方使用本引擎作为消息引擎, 建议您直接使用[Olical/EventEmitter](https://github.com/Olical/EventEmitter).\n\n## 依赖\n\n本引擎运行时不需要任何外部依赖.但是如果您希望自行编译和部署本JavaScript库, 您需要Uglify作为最小化编译工具.\n\n## 文档\n\n请参考麦琪(MatchOn)[开发者文档](http://matchon.cn/docs.html)\n\n## 最小化\n\n您可以直接从这个仓库里获取已经最小化的JavaScript文件.如果您复制了源代码库,也可使用`tools/dist.sh`编译.\n\n## 复制\n\n您可以直接使用git clone命令复制这个仓库.\n```\ngit clone git://github.com/matchon-on/MoEventEmitter.git\n```\n\n### NPM安装包\n\n您可以直接通过NPM安装这个包:\n```\nnpm install MoEventEmitter --save\n```\n\n## Unlicense\n\n继承自原开发者, 这个项目也使用[Unlicense]版本政策.\n\n>This is free and unencumbered software released into the public domain.\n>\n>Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.\n',
+21 silly publish   gitHead: '79caa69b35fa257a20af75ee631438843b706012',
+21 silly publish   bugs: { url: 'https://github.com/fangqiao/MoEventEmitter/issues' },
+21 silly publish   homepage: 'https://github.com/fangqiao/MoEventEmitter#readme',
+21 silly publish   _id: 'MoEventEmitter@1.1.3',
+21 silly publish   scripts: {},
+21 silly publish   _shasum: 'dd6cc6689e696039b94031de18a8886aeee8b508',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name MoEventEmitter
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'MoEventEmitter',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'MoEventEmitter',
+26 silly mapToRegistry   name: 'MoEventEmitter',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/MoEventEmitter
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /home/fqye/.npm/MoEventEmitter/1.1.3/package.tgz
+30 verbose request uri https://registry.npmjs.org/MoEventEmitter
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 10:49:41
+33 verbose request using bearer token for auth
+34 verbose request id 04c59fe5a7f51fca
+35 http request PUT https://registry.npmjs.org/MoEventEmitter
+36 http 403 https://registry.npmjs.org/MoEventEmitter
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Wed, 07 Dec 2016 02:46:09 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-itm7423-ITM',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1481078768.753244,VS0,VE632',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /home/fqye/.npm/registry.npmjs.org/MoEventEmitter on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 1.1.3." : MoEventEmitter
+40 verbose stack     at makeError (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1044:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:965:12)
+41 verbose statusCode 403
+42 verbose pkgid MoEventEmitter
+43 verbose cwd /home/fqye/projects/MoEventEmitter
+44 error Linux 3.16.0-4-amd64
+45 error argv "/usr/bin/nodejs" "/usr/bin/npm" "publish"
+46 error node v6.9.1
+47 error npm  v3.10.8
+48 error code E403
+49 error "You cannot publish over the previously published version 1.1.3." : MoEventEmitter
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
